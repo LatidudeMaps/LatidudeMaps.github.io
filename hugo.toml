@@ -1,0 +1,53 @@
+baseURL = "https://latidudemaps.github.io/"
+title = "Your Name"
+theme = "PaperMod"
+languageCode = "en-us"
+
+[params]
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+
+# Homepage settings
+[params.profileMode]
+enabled = true
+title = "Your Name"
+subtitle = "GIS Specialist & Spatial Data Analyst"
+imageUrl = "images/avatar.png"
+imageTitle = "my image"
+
+[[params.profileMode.buttons]]
+name = "Portfolio"
+url = "/portfolio"
+
+[[params.profileMode.buttons]]
+name = "Blog"
+url = "/posts"
+
+# Main menu
+[menu]
+[[menu.main]]
+identifier = "portfolio"
+name = "Portfolio"
+url = "/portfolio/"
+weight = 10
+
+[[menu.main]]
+identifier = "posts"
+name = "Blog"
+url = "/posts/"
+weight = 20
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 30
+
+# Updated Social Icons section
+[params.social]
+github = "latidudemaps"
+email = "youremail@example.com"

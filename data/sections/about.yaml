@@ -1,0 +1,18 @@
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+
+designation: GIS Specialist
+company:
+  name: Your Company/University
+  url: "https://example.com"
+
+summary: "Write a brief professional summary here..."
+
+socialLinks:
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://github.com/latidudemaps"

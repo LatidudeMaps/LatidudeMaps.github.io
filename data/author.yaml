@@ -1,0 +1,12 @@
+name: Michele T.
+nickname: LatidudeMaps
+image: images/avatar.png
+designation: Geologist - GIS Specialist
+resume: "files/resume.pdf"
+socialLinks:
+  - name: Email
+    icon: "fas fa-envelope"
+    url: "mailto:your.email@example.com"
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://github.com/latidudemaps"
