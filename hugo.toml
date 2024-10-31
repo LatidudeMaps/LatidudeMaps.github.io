@@ -1,5 +1,5 @@
 baseURL = "https://latidudemaps.github.io/"
-title = "Your Name"
+title = "Michele Tricarico AKA LatidudeMaps"
 theme = "PaperMod"
 languageCode = "en-us"
 
@@ -14,8 +14,8 @@ ShowCodeCopyButtons = true
 # Homepage settings
 [params.profileMode]
 enabled = true
-title = "Your Name"
-subtitle = "GIS Specialist & Spatial Data Analyst"
+title = "Michele Tricarico"
+subtitle = "Geologist / GIS Specialist"
 imageUrl = "images/avatar.png"
 imageTitle = "my image"
 
