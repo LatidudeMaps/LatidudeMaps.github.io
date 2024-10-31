@@ -1,17 +1,19 @@
 ---
-title: "Your Project Title"
-date: 2024-01-31T00:00:00+00:00
-description: "Description of your amazing GIS project"
+title: "Mountain Atlas"
+date: 2024-01-31
+description: "Description of your Mountain Atlas project"
 tags: ["gis", "maps"]
-showReadingTime: false
-weight: 1
+ShowReadingTime: false
+ShowBreadCrumbs: false
 cover:
-    image: "/images/mountain_atlas_thumbnail.jpg"
-    alt: "Project thumbnail"
-    linkFullImages: false
-links:
-    - title: "View Project"
-      website: "https://latidudemaps.github.io/MountainAtlas/"
+    image: images/mountain_atlas_thumbnail.png
+    alt: "Project Image"
+    caption: "Project Image"
+    hidden: false
+params:
+    projectUrl: "https://latidudemaps.github.io/MountainAtlas/"
 ---
 
-Project details here if needed.
+**[View Project](https://latidudemaps.github.io/MountainAtlas/)**
+
+Project description here...
