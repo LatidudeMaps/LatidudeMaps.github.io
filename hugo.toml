@@ -4,7 +4,7 @@ theme = "PaperMod"
 languageCode = "en-us"
 
 # Social/Open Graph/Twitter Card settings
-images = ["images/preview.png"]    # Default image for sharing
+images = ["images/preview_home.png"]    # Default image for sharing
 description = "Your site description here"
 
 # Twitter specific
