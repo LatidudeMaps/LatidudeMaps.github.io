@@ -8,7 +8,6 @@ ShowBreadCrumbs: false
 cover:
     image: images/mountain_atlas_thumbnail.png
     alt: "Project Image"
-    caption: "Project Image"
     hidden: false
 params:
     projectUrl: "https://latidudemaps.github.io/MountainAtlas/"
