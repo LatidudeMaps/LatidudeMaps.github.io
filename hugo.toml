@@ -3,6 +3,14 @@ title = "LOGO HERE"
 theme = "PaperMod"
 languageCode = "en-us"
 
+# Social/Open Graph/Twitter Card settings
+images = ["images/preview.png"]    # Default image for sharing
+description = "Your site description here"
+
+# Twitter specific
+[params.socialAccounts]
+twitter = "your-twitter-handle"      # Optional, add if you have Twitter
+
 [params]
 defaultTheme = "dark"
 disableThemeToggle = true
@@ -18,6 +26,11 @@ background = "/images/background.jpg"
 [params.assets]
 disableHLJS = true
 customCSS = ["css/custom.css"]
+favicon = "/favicon.ico"
+favicon16x16 = "/favicon-16x16.png"
+favicon32x32 = "/favicon-32x32.png"
+apple_touch_icon = "/apple-touch-icon.png"
+safari_pinned_tab = "/safari-pinned-tab.svg"
 
 # Homepage settings
 [params.profileMode]
