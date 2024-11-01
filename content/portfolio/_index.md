@@ -6,4 +6,4 @@ summary: "GIS Projects"
 class: "section-portfolio"
 ---
 
-Here's a collection of my GIS projects.
+Here's a collection of my projects.
