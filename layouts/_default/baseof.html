@@ -79,8 +79,21 @@
             box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.45) !important;
         }
         
-        /* Tags styling */
-        .tag {
+        /* Tags styling - more specific selectors */
+        .terms-tags a, .post-tags a {
+            background: rgba(29, 30, 32, 0.4) !important;
+            backdrop-filter: blur(10px) !important;
+            -webkit-backdrop-filter: blur(10px) !important;
+            border: 1px solid rgba(255, 255, 255, 0.1) !important;
+            color: var(--primary) !important;
+        }
+
+        .terms-tags a:hover, .post-tags a:hover {
+            background: rgba(29, 30, 32, 0.6) !important;
+        }
+
+        /* Target individual tags */
+        .tag-item {
             background: rgba(29, 30, 32, 0.4) !important;
             backdrop-filter: blur(10px) !important;
             -webkit-backdrop-filter: blur(10px) !important;
@@ -113,19 +126,6 @@
         }
 
         .share-buttons a {
-            color: var(--primary) !important;
-        }
-
-        /* Breadcrumbs */
-        .breadcrumbs {
-            background: rgba(29, 30, 32, 0.4) !important;
-            backdrop-filter: blur(10px) !important;
-            -webkit-backdrop-filter: blur(10px) !important;
-            border: 1px solid rgba(255, 255, 255, 0.1) !important;
-            color: var(--primary) !important;
-        }
-
-        .breadcrumbs a {
             color: var(--primary) !important;
         }
 
