@@ -39,12 +39,6 @@ A comprehensive interactive web mapping application focused on visualizing and e
 - Top 5 highest peaks panel showing peaks in current view
 - Clickable markers with elevation and location details
 
-### Technical Features
-- Modular architecture with separate managers for maps, layers, UI, and data
-- Efficient data loading and caching mechanisms
-- Debounced search and responsive handling
-- Touch-friendly controls for mobile devices
-
 ## Purpose
 
 The Italian Mountains Atlas serves as an educational and reference tool for exploring Italian mountain geography. It provides a user-friendly platform for:
@@ -69,4 +63,3 @@ The application demonstrates the effective use of modern web technologies and AI
 - GMBA Mountain Inventory v2 ([earthenv.org/mountains](https://www.earthenv.org/mountains))
 - OpenStreetMap contributors data
 - Wikipedia API for mountain information
----
