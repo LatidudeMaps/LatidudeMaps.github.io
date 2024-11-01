@@ -14,8 +14,9 @@ params:
     projectUrl: "https://latidudemaps.github.io/MountainAtlas/"
 ---
 
-**[View Project](https://latidudemaps.github.io/MountainAtlas/)**
+**[Go to the webpage](https://latidudemaps.github.io/MountainAtlas/)**
 
+---
 # Italian Mountains Atlas
 
 A comprehensive interactive web mapping application focused on visualizing and exploring Italian mountain ranges and peaks. The project combines multiple data sources, including the GMBA Mountain Inventory and OpenStreetMap, to provide an intuitive interface for mountain exploration.
@@ -70,3 +71,4 @@ The application demonstrates the effective use of modern web technologies and AI
 - GMBA Mountain Inventory v2 ([earthenv.org/mountains](https://www.earthenv.org/mountains))
 - OpenStreetMap contributors data
 - Wikipedia API for mountain information
+---
