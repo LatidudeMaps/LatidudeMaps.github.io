@@ -1,13 +1,12 @@
 ---
 title: "Italian Mountain Atlas"
 date: 2024-10-31
-description: "Description of your Mountain Atlas project"
+description: "My first ever web interactive map"
 tags: ["gis", "maps", "leaflet", "webmapping", "openstreetmap", "italy", "mountains", "geography", "interactive-map"]
 ShowReadingTime: false
 ShowBreadCrumbs: false
 cover:
     image: images/mountain_atlas_thumbnail.png
-    alt: "Project Image"
     hidden: false
 params:
     projectUrl: "https://latidudemaps.github.io/MountainAtlas/"
