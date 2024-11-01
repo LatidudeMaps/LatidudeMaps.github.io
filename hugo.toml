@@ -1,15 +1,7 @@
 baseURL = "https://latidudemaps.github.io/"
-title = " "
+title = " "  # Keep this for the logo
 theme = "PaperMod"
 languageCode = "en-us"
-
-# Social/Open Graph/Twitter Card settings
-images = ["images/preview_home.png"]    # Default image for sharing
-description = "Your site description here"
-
-# Twitter specific
-[params.socialAccounts]
-twitter = "your-twitter-handle"      # Optional, add if you have Twitter
 
 [params]
 defaultTheme = "dark"
@@ -19,11 +11,19 @@ ShowShareButtons = true
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
+description = "Geologist and GIS Specialist - Portfolio and Blog"  # For Twitter/OG
+images = ["images/preview_home.png"]  # For Twitter/OG
+
+# Twitter Card
+[params.twitter]
+card = "summary_large_image"
+site = "@YourTwitterHandle"  # Replace with your Twitter handle
+creator = "@YourTwitterHandle"  # Replace with your Twitter handle
 
 [params.label]
-text = " " # This removes the text
-icon = "/images/logo.png" # This adds your logo
-iconHeight = 35 # Adjust size as needed
+text = " "
+icon = "/images/logo.png"
+iconHeight = 35
 
 [params.theme_config]
 background = "/images/background.jpg"
@@ -31,11 +31,10 @@ background = "/images/background.jpg"
 [params.assets]
 disableHLJS = true
 customCSS = ["css/custom.css"]
-favicon = "/favicon.ico"
-favicon16x16 = "/favicon-16x16.png"
-favicon32x32 = "/favicon-32x32.png"
-apple_touch_icon = "/apple-touch-icon.png"
-safari_pinned_tab = "/safari-pinned-tab.svg"
+favicon = "images/favicon.ico"
+favicon16x16 = "images/favicon-16x16.png"
+favicon32x32 = "images/favicon-32x32.png"
+apple_touch_icon = "images/apple-touch-icon.png"
 
 # Homepage settings
 [params.profileMode]
