@@ -11,6 +11,13 @@ ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
 
+[params.theme_config]
+background = "/images/background.jpg"
+
+[params.assets]
+disableHLJS = true
+customCSS = ["css/custom.css"]
+
 # Homepage settings
 [params.profileMode]
 enabled = true

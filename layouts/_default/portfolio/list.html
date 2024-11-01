@@ -1,0 +1,24 @@
+{{ define "main" }}
+<div class="portfolio-grid">
+    <h1>{{ .Title }}</h1>
+    <div class="portfolio-container">
+        {{ range .Pages }}
+        <div class="portfolio-item">
+            <article class="post-entry">
+                <header class="entry-header">
+                    <h2>{{ .Title }}</h2>
+                </header>
+                <div class="entry-content">
+                    <p>{{ .Description }}</p>
+                </div>
+                {{ if .Params.externalLink }}
+                <footer class="entry-footer">
+                    <a href="{{ .Params.externalLink }}" target="_blank">View Project →</a>
+                </footer>
+                {{ end }}
+            </article>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
