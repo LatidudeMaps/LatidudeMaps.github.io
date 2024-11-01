@@ -4,7 +4,7 @@ date: 2024-10-31
 description: "Description of Val d'Agri Geological Map project"
 tags: ["gis", "maps"]
 ShowReadingTime: false
-ShowBreadCrumbs: false
+ShowBreadCrumbs: true
 cover:
     image: images/geo_map.jpg
     alt: "Project Image"

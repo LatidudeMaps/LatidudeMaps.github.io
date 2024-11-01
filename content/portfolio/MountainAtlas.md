@@ -4,7 +4,7 @@ date: 2024-10-31
 description: "My first ever web interactive map"
 tags: ["gis", "maps", "leaflet", "webmapping", "openstreetmap", "italy", "mountains", "geography", "interactive-map"]
 ShowReadingTime: false
-ShowBreadCrumbs: false
+ShowBreadCrumbs: true
 cover:
     image: images/mountain_atlas_thumbnail.png
     hidden: false
