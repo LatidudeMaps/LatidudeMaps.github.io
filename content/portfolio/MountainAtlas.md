@@ -2,7 +2,7 @@
 title: "Mountain Atlas"
 date: 2024-10-31
 description: "Description of your Mountain Atlas project"
-tags: ["gis", "maps"]
+tags: ["gis", "maps", "leaflet", "webmapping", "openstreetmap", "italy", "mountains", "geography", "interactive-map"]
 ShowReadingTime: false
 ShowBreadCrumbs: false
 cover:
