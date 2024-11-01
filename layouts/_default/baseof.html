@@ -79,8 +79,15 @@
             box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.45) !important;
         }
         
-        /* Tags styling - more specific selectors */
-        .terms-tags a, .post-tags a {
+        /* Comprehensive tag styling for all pages */
+        .terms-tags a, 
+        .post-tags a, 
+        .tag-item,
+        .post-entry .entry-content .post-tags a,
+        .post-single .post-tags a,
+        .entry-footer .post-tags a,
+        a[rel="tag"],
+        .tag {
             background: rgba(29, 30, 32, 0.4) !important;
             backdrop-filter: blur(10px) !important;
             -webkit-backdrop-filter: blur(10px) !important;
@@ -88,17 +95,16 @@
             color: var(--primary) !important;
         }
 
-        .terms-tags a:hover, .post-tags a:hover {
+        /* Hover effects for all tags */
+        .terms-tags a:hover, 
+        .post-tags a:hover,
+        .tag-item:hover,
+        .post-entry .entry-content .post-tags a:hover,
+        .post-single .post-tags a:hover,
+        .entry-footer .post-tags a:hover,
+        a[rel="tag"]:hover,
+        .tag:hover {
             background: rgba(29, 30, 32, 0.6) !important;
-        }
-
-        /* Target individual tags */
-        .tag-item {
-            background: rgba(29, 30, 32, 0.4) !important;
-            backdrop-filter: blur(10px) !important;
-            -webkit-backdrop-filter: blur(10px) !important;
-            border: 1px solid rgba(255, 255, 255, 0.1) !important;
-            color: var(--primary) !important;
         }
 
         /* Navigation buttons between posts */
