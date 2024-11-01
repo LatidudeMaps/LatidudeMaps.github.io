@@ -1,10 +1,11 @@
 baseURL = "https://latidudemaps.github.io/"
-title = "Michele Tricarico AKA LatidudeMaps"
+title = "LOGO HERE"
 theme = "PaperMod"
 languageCode = "en-us"
 
 [params]
-defaultTheme = "auto"
+defaultTheme = "dark"
+disableThemeToggle = true
 ShowReadingTime = true
 ShowShareButtons = true
 ShowPostNavLinks = true
@@ -23,7 +24,7 @@ customCSS = ["css/custom.css"]
 enabled = true
 title = "Michele Tricarico"
 subtitle = "Geologist / GIS Specialist"
-imageUrl = "images/avatar.png"
+imageUrl = "images/profilepic.jpg"
 imageTitle = "my image"
 
 [[params.profileMode.buttons]]
@@ -61,4 +62,4 @@ weight = 30
 # Updated Social Icons section
 [params.social]
 github = "latidudemaps"
-email = "latidude.maps@gmail..com"
+email = "latidude.maps@gmail.com"

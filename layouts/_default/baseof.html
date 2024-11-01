@@ -1,41 +1,33 @@
 <!DOCTYPE html>
-<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}" style="overflow: hidden;">
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
 
 <head>
     {{- partial "head.html" . }}
     <style>
-        html, body {
-            overflow: hidden !important;
-            height: 100% !important;
-        }
-
         body {
             background-image: url('/images/background.jpg') !important;
             background-size: cover !important;
             background-position: center !important;
             background-attachment: fixed !important;
             background-repeat: no-repeat !important;
+            min-height: 100vh !important;
+            overflow-x: hidden !important;
         }
         
         .main {
             background-color: transparent !important;
-            height: 100vh;
-            overflow-y: scroll !important;
+            min-height: 100vh;
             padding: 20px;
-            scrollbar-width: none !important;
-            -ms-overflow-style: none !important;
-            max-width: min(1400px, 90%) !important;
-            width: 90% !important;
-            margin: 0 auto !important;
         }
 
-        .main::-webkit-scrollbar {
-            display: none !important;
+        /* Only allow scrolling on content pages, not on home */
+        .main:not(:has(.profile)) {
+            overflow-y: auto !important;
         }
 
-        /* Profile styles */
-        .profile {
-            background-color: transparent !important;
+        /* Prevent scrolling on home page */
+        .profile-wrapper {
+            overflow: hidden !important;
         }
 
         /* Force dark theme colors */
@@ -61,33 +53,9 @@
             color: var(--primary) !important;
         }
 
-        /* Portfolio Grid Layout */
-        .portfolio-grid {
-            width: 100%;
-        }
-
-        .portfolio-container {
-            display: grid !important;
-            grid-template-columns: repeat(3, 1fr) !important;
-            gap: 20px !important;
-            padding: 20px 0 !important;
-        }
-
-        @media screen and (max-width: 1024px) {
-            .portfolio-container {
-                grid-template-columns: repeat(2, 1fr) !important;
-            }
-        }
-
-        @media screen and (max-width: 768px) {
-            .portfolio-container {
-                grid-template-columns: 1fr !important;
-            }
-        }
-
-        .portfolio-item .post-entry {
-            height: 100% !important;
-            margin: 0 !important;
+        /* For profile/home page */
+        .profile {
+            background-color: transparent !important;
         }
 
         /* Ensure links and text are visible */
@@ -111,27 +79,19 @@
             box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.45) !important;
         }
 
-        /* Responsive width adjustments */
-        @media screen and (max-width: 768px) {
+        /* Mobile optimization */
+        @media (max-width: 768px) {
+            body {
+                background-attachment: scroll !important;
+            }
+            
             .main {
-                width: 95% !important;
-                padding: 10px !important;
+                padding: 10px;
             }
             
             .post-single, .post-entry {
-                padding: 15px !important;
-            }
-        }
-
-        @media screen and (max-width: 480px) {
-            .main {
-                width: 98% !important;
-                padding: 5px !important;
-            }
-            
-            .post-single, .post-entry {
-                padding: 10px !important;
                 margin: 10px 0 !important;
+                padding: 15px !important;
             }
         }
     </style>
