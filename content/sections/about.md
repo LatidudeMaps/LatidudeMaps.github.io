@@ -5,9 +5,9 @@ summary: "about"
 layout: "about"
 ---
 
-Hello! 
-
-A dedicated Geologist and GIS Expert with extensive experience in geological surveying, environmental sampling, and monitoring. Specializing in geological modeling and advanced GIS systems, I bring together technical expertise with creativity and precision. Currently working with major energy companies, I excel in managing complex geological and environmental data while providing high-quality cartographic reporting.
+I am a dedicated Geologist and GIS Expert with extensive experience in geological surveying, environmental sampling, and monitoring.
+Specializing in geological modeling and advanced GIS systems, I bring together technical expertise with creativity and precision.
+Currently working with major energy companies, I excel in managing complex geological and environmental data while providing high-quality cartographic reporting.
 
 ---
 
@@ -15,7 +15,7 @@ A dedicated Geologist and GIS Expert with extensive experience in geological sur
 
 ### Senior Geologist | AKKODIS ITALY (formerly ITALCONSULT S.P.A. at ENI)
 *Viggiano, Italy | July 2019 - Present*
-- Lead geological, geomorphological, and hydrogeological monitoring of collection networks and well areas
+- Lead geological, geomorphological, and hydrogeological monitoring of pipeline networks and well areas
 - Manage comprehensive field activities including inclinometer and piezometer readings, InSAR, and weather data analysis
 - Develop and maintain extensive geodatabases (geodatabase, geopackage, SQL) in GIS and WebGIS environments
 - Create high-quality cartographic reports and 2D/3D geological modeling
