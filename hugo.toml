@@ -1,5 +1,5 @@
 baseURL = "https://latidudemaps.github.io/"
-title = "LOGO HERE"
+title = " "
 theme = "PaperMod"
 languageCode = "en-us"
 
@@ -19,6 +19,11 @@ ShowShareButtons = true
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
+
+[params.label]
+text = " " # This removes the text
+icon = "/images/logo.png" # This adds your logo
+iconHeight = 35 # Adjust size as needed
 
 [params.theme_config]
 background = "/images/background.jpg"
