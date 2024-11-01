@@ -12,7 +12,7 @@ params:
     projectUrl: "https://latidudemaps.github.io/MountainAtlas/"
 ---
 
-**[Go to the webpage](https://latidudemaps.github.io/MountainAtlas/)**
+**[Go to the WebApp](https://latidudemaps.github.io/MountainAtlas/)**
 
 ---
 # Italian Mountains Atlas
