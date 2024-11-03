@@ -1,5 +1,5 @@
 ---
-title: "Italian Mountain Atlas"
+title: "Italian Mountains Atlas"
 date: 2024-10-31
 description: "My first ever web interactive map"
 tags: ["gis", "maps", "leaflet", "webmapping", "openstreetmap", "italy", "mountains", "geography", "interactive-map"]
