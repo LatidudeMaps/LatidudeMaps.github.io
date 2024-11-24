@@ -2,6 +2,8 @@ baseURL = "https://latidudemaps.github.io/"
 title = " "  # Keep this for the logo
 theme = "PaperMod"
 languageCode = "en-us"
+googleAnalytics = "G-PQEDCMEHLC"  # Sostituisci con il tuo ID GA4 reale
+
 
 [params]
 defaultTheme = "dark"
